@@ -16,7 +16,6 @@
         padding-right: 40px;
     }
     span.material-symbols-outlined{
-        color: var(--c4);
         display: block;
     }
     header h1{
@@ -52,7 +51,6 @@
     }
     span.material-symbols-outlined{
         display: block;
-        color: var(--c4);
        
     }
     header h1{
@@ -66,9 +64,6 @@
         margin: auto;
         display: block;
         padding: 0px 60px 0px 60px;
-    }
-    img#i1{
-        width: 700px;
     }
 }
 /*pc*/

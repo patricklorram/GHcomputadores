@@ -25,6 +25,10 @@ html{
 }
 span.material-symbols-outlined{
     display: none;
+    color: var(--c3);
+}
+span.material-symbols-outlined:hover{
+    color: var(--c4);
 }
 img#logo{
     float: left;
@@ -47,7 +51,7 @@ nav a{
     color: var(--c3);
     text-decoration: none;
     font-size: 1.6em;
-    margin-left: 60px;
+    margin-left: 40px;
     font-family: var(--f2);
     font-weight: 600;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.426);
