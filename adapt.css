@@ -3,8 +3,11 @@
 
 /*celular*/
 @media only screen and (min-width: 0px) and (max-width: 768px) {
-    a{
+    menu{
         display: none;
+    }
+    ul{
+        columns: 1;
     }
     img#logo{
         float: left;
@@ -37,8 +40,11 @@
 }
 /*tablet*/
 @media screen and (min-width: 769px) and (max-width:992px){
-    a{
+    menu{
         display: none;
+    }
+    ul{
+        columns: 1;
     }
     img#logo{
         float: left;

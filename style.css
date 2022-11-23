@@ -92,3 +92,7 @@ img#i1{
     width: 60vw;
     margin-top: -120px;
 }
+ul{
+    list-style: none;
+    columns: 4;
+}
