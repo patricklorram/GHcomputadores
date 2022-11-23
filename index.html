@@ -41,7 +41,13 @@
     </main>
     <script>
             function clickMenu(){
-                burger.style.display = 'block'
+
+                if (burger.style.display=='block'){
+                    burger.style.display = 'none'
+                }else{
+                    burger.style.display='block'
+                }
+                getElementById('burger').style.cursor='pointer'
             }
         </script>
     <footer></footer>

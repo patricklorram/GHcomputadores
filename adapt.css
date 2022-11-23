@@ -45,6 +45,7 @@
     }
     ul{
         columns: 1;
+        text-align: center;
     }
     img#logo{
         float: left;
