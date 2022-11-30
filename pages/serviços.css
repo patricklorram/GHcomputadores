@@ -3,20 +3,35 @@
 
 body{
     background-color: var(--c2);
-    box-shadow: none;
+    
 }
-header{
-    padding-bottom: 50px;
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 550px;
+    display: flex;
+
 }
 main{
     background-color: var(--c1);
-    margin: 0px 35px 50px 35px;
+    width: 1200px;
+    margin: auto;
     color: var(--c4);
+    box-shadow: none;
 }
-main p#container{
-    margin: 20px;
-    width: 400px;
+p{
+    padding-bottom: 40px;
+    margin: 40px;
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: var(--f2);
 }
-main p{
-    margin: 20px;
+div.container img{
+    display: inline-flex;
+    float: right;
+    width: 550px;
+    height: 350px;
+}
+img#mobile{
+    display: none;
 }
