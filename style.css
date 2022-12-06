@@ -3,16 +3,19 @@
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
     --f1: 'Open Sans', sans-serif;
     --f2: 'Inter', sans-serif;
     --f3: 'Lato', sans-serif;
+    --f4: 'Bebas Neue', cursive;
 
     --c1: #363636;
     --c2: #3c465e;
     --c3: #7cedff;
-    --c4: white;
+    --c4: rgba(231, 231, 231, 0.929);
+    --c5: #363636;
 }
 html{
     min-height: 100%;
@@ -23,11 +26,15 @@ html{
     padding: 0px;
     
 }
+body{
+    background-color: var(--c);
+}
 #burger{
     background-color: var(--c2);
     padding: 5px;
     margin: auto;
     float: right;
+    transition: 0.4s;
 }
 span.material-symbols-outlined{
     display: none;
@@ -38,42 +45,48 @@ span.material-symbols-outlined:hover{
     color: var(--c4);
     cursor: pointer;
 }
-img#logo{
-    float: left;
-    margin-left: -30px;
-    margin-top: -25px;
-    padding-left: 135px;
-}
-
 mobile{
     display: none;
     
 }
-#container{
-    background-color: var(--c1);
-    padding: 35px;
-    text-align: right;
-    padding-right: 135px;
-    
-    
+img#logo{
+    width: 100px;
+    margin-top: -50px;
+    transition: 0.4s;
+    display: none;
+}
+div#navbar{
+    background-color: var(--c5);
+    padding: 20px 0px;
+    z-index: 99;
+    box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.082);
+    top: 0;
+    min-width: 100%;
+    display: block;
+    position: fixed;
+    transition: .4s;
+    margin: auto;
 }
 a{
     color: var(--c3);
     text-decoration: none;
     margin: 10px;
     font-size: 1.3em;
-    font-family: var(--f2);
-    font-weight: 600;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.426);
+    font-family: var(--f4);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.426);
+    display: inline;
+        
 }
 a:hover{
     color: var(--c4);
 }
 header{
-    background-color: var(--c2);
-    padding-bottom: 160px;
-    
+    background-color: var(--c1);
+    padding: 100px 0;
+    transition: 0.4s;
+    top: 0px;
 }
+
 h1,h2{
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.426);
@@ -81,27 +94,31 @@ h1,h2{
 header h1{
     color: var(--c3);
     font-family: var(--f3);
-    font-size: 3em;
-    padding-top: 100px;
+    font-size: 2em;
+    padding-top: 20px;
+    
 }
 header h2{
     color: var(--c4);
     font-family: var(--f2);
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 0px 130px 0px 130px;
     max-width: 1100px;
     margin: auto;
 }
 main{
+
     box-shadow: 1px -7px 5px rgba(0, 0, 0, 0.238);
     padding: 0px;
     margin: 0px;
+    width: 100%;
+
 }
 div{
     text-align: center;
 }
 img#i1{
-    width: 95vw;
+    width: 60vw;
     max-width: 950px;
     margin-top: -120px;
 }
