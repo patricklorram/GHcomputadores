@@ -22,7 +22,9 @@
         width: 110px;
     }
     mobile{
-        display:block;  
+        display:block; 
+        margin-right: 200px;
+        text-align: right;
     }
     span.material-symbols-outlined{
         display: inline-block;
