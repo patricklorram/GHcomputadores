@@ -2,7 +2,7 @@
 
 
 /*celular*/
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 768px){
     menu{
         display: none;
     }
@@ -16,43 +16,34 @@
         padding-right: 40px;
         margin:0px;
     }
-    img#logo{
-        float: left;
-        padding-left: 40px;
-        width: 110px;
+    #navbar{
+        text-align: center;
     }
-    mobile{
-        display:block; 
-        margin-right: 200px;
-        text-align: right;
+    #mobile{
+        display:inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    #burger{
+        display: none;
     }
     span.material-symbols-outlined{
-        display: inline-block;
-        text-align: center;
+        display: block;
+        margin: auto;
         font-size: 2em;
-       
     }
     header h1{
         display: block;
         margin: auto;
-        font-size: 1.6em;
-        padding: 60px 40px 0px 40px;
-        min-width: 300px;
-        max-width: 700px;
+        margin-top: 200px;
+       padding: 0 20px;
     }
-    header h2{
+    header h2{  
         font-size: 1em;
-        min-width: 300px;
         max-width: 700px;
-        margin: auto;
         display: block;
-        padding: 0px 40px 0px 40px;
-        
-    }
-    img#i1{
-        margin-top: -90px;
-        min-width: 320px;
-        max-width: 620px;
+        margin: auto;
+        padding:0 30px;
     }
 }
 /*tablet*/
@@ -65,8 +56,11 @@
             padding-left: 80px;
             width: 150px;
         }
-    mobile{
-        padding-right: 40px;
+    nav{
+        margin: auto;
+    }
+    #mobile{
+        margin: auto;
         display:none;
     }
     a{

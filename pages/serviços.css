@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-
+#burger{
+    display: none;
+}
 body{
     background-color: var(--c2);
     background-image: linear-gradient(var(--c2), var(--c1)60%);
@@ -23,6 +25,8 @@ h2{
     padding-left: 40px;
     color: var(--c3);
     font-family: var(--f4);
+    background: none;
+    text-align: center;
 }
 .container{
     padding-top: 0px;
@@ -31,11 +35,11 @@ h2{
     position: relative;
 }
 div.container img{
-    width: 350px;
+    width: 380px;
     position: absolute;
     top: 90px;
     left: 470px;
-    box-shadow: 20px 20px 7px rgba(0, 0, 0, 0.205);
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.205);
 }
 .container p{
     position: relative;
@@ -52,6 +56,40 @@ img#mobile{
     display: none;
 }
 
+/*celular*/
+@media only screen and (min-width: 0px) and (max-width: 768px){
 
-
-
+main{
+    background-color: var(--c1);
+    max-width: 420px;
+    margin: 0 30px;
+    height: 1200px;
+    margin: auto;
+    color: var(--c4);
+    box-shadow: none;
+}
+h2{
+    padding-top: 40px;
+    color: var(--c3);
+    font-family: var(--f4);
+    background: none;
+    text-align: center;
+}
+.container{
+    padding-top: 0px;
+    max-width: 380px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+}
+div.container img{
+    max-width: 380px;
+    text-align: center;
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.205);
+    display: none;
+}
+div.container img{
+    display: none;
+}
+}
