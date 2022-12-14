@@ -61,7 +61,7 @@ img#logo{
     display: none;
 }
 div#navbar{
-    background-color: var(--c5);
+    background-color: var(--c1);
     padding: 20px 0px;
     z-index: 1;
     box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.082);
@@ -97,12 +97,13 @@ a:hover{
     transition: 0.4s;
     top: 0px;
     max-height: 100%;
+    padding: 50px 130px 100px 130px;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.477);
 }
 header h1{
     color: var(--c3);
     font-family: var(--f3);
     font-size: 2em;
-    padding: 100px 130px 0px 130px;
     max-width: 800px;
     display: block;
     margin: auto;
@@ -112,7 +113,6 @@ header h2{
     color: var(--c4);
     font-family: var(--f2);
     font-size: 1em;
-    padding: 0px 130px 100px 130px;
     max-width: 800px;
     margin: auto;
 }
