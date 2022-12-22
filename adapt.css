@@ -32,11 +32,14 @@
         margin: auto;
         font-size: 2em;
     }
+    #h{
+        padding: 10px;
+    }
     header h1{
         display: block;
         margin: auto;
         margin-top: 200px;
-       padding: 0 20px;
+        padding: 0 20px;
     }
     header h2{  
         font-size: 1em;
@@ -54,7 +57,7 @@
         }
         img#logo{ 
             padding-left: 80px;
-            width: 150px;
+            width: 550px;
         }
     nav{
         margin: auto;
