@@ -33,12 +33,13 @@
         font-size: 2em;
     }
     #h{
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 120px;
     }
     header h1{
         display: block;
         margin: auto;
-        margin-top: 200px;
         padding: 0 20px;
     }
     header h2{  
